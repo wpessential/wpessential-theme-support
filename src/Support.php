@@ -317,11 +317,11 @@ final class Support
 		$starter_content = [
 			'widgets'     => [
 				// Place one core-defined widgets in the first footer widget area.
-				'sidebar-1' => [
+				'main-sidebar' => [
 					'text_about',
 				],
 				// Place one core-defined widgets in the second footer widget area.
-				'footer'    => [
+				'footer'       => [
 					'text_about',
 				],
 			],
@@ -330,7 +330,7 @@ final class Support
 			'attachments' => [
 				'image-opening' => [
 					'post_title' => _x( 'The New UMoMA Opens its Doors', 'Theme starter content', 'TEXT_DOMAIN' ),
-					'file'       => WPE_T_URI . 'assets/images/landscape-1.png',
+					'file'       => get_template_directory() . '/vendor/wpessential/wpessential-theme-support/src/assets/images/landscape-1.png',
 					// URL relative to the template directory.
 				],
 			],
@@ -355,7 +355,7 @@ final class Support
 							'<div class="wp-block-column"><!-- wp:group -->',
 							'<div class="wp-block-group"><div class="wp-block-group__inner-container">',
 							'<!-- wp:image {"align":"full","id":37,"sizeSlug":"full"} -->',
-							'<figure class="wp-block-image alignfull size-full"><img src="' . WPE_T_URI . 'assets/images/three-quarters-1.png" alt="three quarters 1" class="wp-image-37"/></figure>',
+							'<figure class="wp-block-image alignfull size-full"><img src="' . get_template_directory() . '/vendor/wpessential/wpessential-theme-support/src/assets/images/three-quarters-1.png" alt="three quarters 1" class="wp-image-37"/></figure>',
 							'<!-- /wp:image -->',
 							'<!-- wp:heading {"level":3} -->',
 							'<h3>' . esc_html__( 'Works and Days', 'TEXT_DOMAIN' ) . '</h3>',
@@ -370,7 +370,7 @@ final class Support
 							'<!-- wp:group -->',
 							'<div class="wp-block-group"><div class="wp-block-group__inner-container">',
 							'<!-- wp:image {"align":"full","id":37,"sizeSlug":"full"} -->',
-							'<figure class="wp-block-image alignfull size-full"><img src="' . WPE_T_URI . 'assets/images/three-quarters-3.png" alt="three quarters 3" class="wp-image-37"/></figure>',
+							'<figure class="wp-block-image alignfull size-full"><img src="' . get_template_directory() . '/vendor/wpessential/wpessential-theme-support/src/assets/images/three-quarters-3.png" alt="three quarters 3" class="wp-image-37"/></figure>',
 							'<!-- /wp:image -->',
 							'<!-- wp:heading {"level":3} -->',
 							'<h3>' . esc_html__( 'Theatre of Operations', 'TEXT_DOMAIN' ) . '</h3>',
@@ -387,7 +387,7 @@ final class Support
 							'<div class="wp-block-column"><!-- wp:group -->',
 							'<div class="wp-block-group"><div class="wp-block-group__inner-container">',
 							'<!-- wp:image {"align":"full","id":37,"sizeSlug":"full"} -->',
-							'<figure class="wp-block-image alignfull size-full"><img src="' . WPE_T_URI . 'assets/images/three-quarters-2.png" alt="three quarters 2" class="wp-image-37"/></figure>',
+							'<figure class="wp-block-image alignfull size-full"><img src="' . get_template_directory() . '/vendor/wpessential/wpessential-theme-support/src/assets/images/three-quarters-2.png" alt="three quarters 2" class="wp-image-37"/></figure>',
 							'<!-- /wp:image -->',
 							'<!-- wp:heading {"level":3} -->',
 							'<h3>' . esc_html__( 'The Life I Deserve', 'TEXT_DOMAIN' ) . '</h3>',
@@ -402,7 +402,7 @@ final class Support
 							'<!-- wp:group -->',
 							'<div class="wp-block-group"><div class="wp-block-group__inner-container">',
 							'<!-- wp:image {"align":"full","id":37,"sizeSlug":"full"} -->',
-							'<figure class="wp-block-image alignfull size-full"><img src="' . WPE_T_URI . 'assets/images/three-quarters-4.png" alt="three quarters 4" class="wp-image-37"/></figure>',
+							'<figure class="wp-block-image alignfull size-full"><img src="' . get_template_directory() . '/vendor/wpessential/wpessential-theme-support/src/assets/images/three-quarters-4.png" alt="three quarters 4" class="wp-image-37"/></figure>',
 							'<!-- /wp:image -->',
 							'<!-- wp:heading {"level":3} -->',
 							'<h3>' . esc_html__( 'From Signac to Matisse', 'TEXT_DOMAIN' ) . '</h3>',
@@ -417,7 +417,7 @@ final class Support
 							'<!-- /wp:column --></div>',
 							'<!-- /wp:columns -->',
 							'<!-- wp:image {"align":"full","id":37,"sizeSlug":"full"} -->',
-							'<figure class="wp-block-image alignfull size-full"><img src="' . WPE_T_URI . 'assets/images/landscape-2.png" alt="landscape 2" class="wp-image-37"/></figure>',
+							'<figure class="wp-block-image alignfull size-full"><img src="' . get_template_directory() . '/vendor/wpessential/wpessential-theme-support/src/assets/images/landscape-2.png" alt="landscape 2" class="wp-image-37"/></figure>',
 							'<!-- /wp:image -->',
 							'<!-- wp:group {"align":"wide"} -->',
 							'<div class="wp-block-group alignwide"><div class="wp-block-group__inner-container"><!-- wp:heading {"align":"center","textColor":"accent"} -->',
