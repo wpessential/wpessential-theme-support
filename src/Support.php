@@ -9,7 +9,7 @@ if ( ! \defined( 'ABSPATH' ) && ! \defined( 'WPE_GEN_SUPPORT' ) )
 
 final class Support
 {
-	public static function constructor ()
+	public static function init ()
 	{
 		self::html5();
 		self::custom_header();
