@@ -174,10 +174,10 @@ final class Support
 	protected static function woocommerce ()
 	{
 		$allow_woo = apply_filters( 'wpe/library/support/allow/woocommerce', [
-			'wc-product-gallery-zoom',
-			'wc-product-gallery-lightbox',
-			'wc-product-gallery-slider',
-			'woocommerce'
+			'zoom'        => 'wc-product-gallery-zoom',
+			'lightbox'    => 'wc-product-gallery-lightbox',
+			'slider'      => 'wc-product-gallery-slider',
+			'woocommerce' => 'woocommerce'
 		] );
 		if ( ! empty( $allow_woo ) )
 		{

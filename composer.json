@@ -1,6 +1,6 @@
 {
     "name": "wpessential/wpessential-theme-support",
-    "minimum-stability": "stable",
+    "version" : "1.0.2",
     "description": "WPEssential Theme Support helping to register the support of different options in WordPress.",
     "type": "library",
     "license": "GPL-3.0-or-later",
